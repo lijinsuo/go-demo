@@ -51,9 +51,9 @@ String pluginPath = Environment.getExternalStorageDirectory().getAbsolutePath().
 File plugin = new File(pluginPath);
 PluginManager.getInstance(base).loadPlugin(plugin);
 
-//suppose "com.ryg.test" is the package name of plugin apk.
+//suppose "com.didi.virtualapk.demo" is the package name of plugin apk.
 Intent intent = new Intent();
-intent.setClassName("com.ryg.test", "com.ryg.test.MainActivity");
+intent.setClassName("com.didi.virtualapk.demo", "com.didi.virtualapk.demo.MainActivity");
 startActivity(intent);
 ```
 ### Plugin Project
@@ -71,18 +71,18 @@ Note : put the following code at the end of build.gradle
 apply plugin: 'com.didi.virtualapk.plugin'
 virtualApk {
     packageId = 0x6f // the package id of Resources.
-    targetHost='source/host' // the path of host project.
-    applyHostMapping = true //optional, default value: true. 
+    targetHost='source/host/app' // the path of application module in host project.
+    applyHostMapping = true // optional, default value: true. 
 }
 ```
 # Develop guide
-See the [Wiki](http://www.baidu.com/wiki).
+See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki).
 # Known issues
 - unsupport notifications with custom layout in plugin
 - unsupport transition animations with animation resources in plugin
 
 # Contributing
-Welcome to contribute to VirtualAPK, you can contribute issues or pull requests, see the [Contributing Guide]().
+Welcome to contribute to VirtualAPK, you can contribute issues or pull requests, see the [Contributing Guide](CONTRIBUTING.md).
 
 # License
-VirtualAPK is under the BSD license. See the [LICENSE]() file.
+VirtualAPK is under the BSD license. See the [LICENSE](LICENSE) file.
