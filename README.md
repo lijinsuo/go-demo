@@ -85,4 +85,4 @@ See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki).
 Welcome to contribute to VirtualAPK, you can contribute issues or pull requests, see the [Contributing Guide](CONTRIBUTING.md).
 
 # License
-VirtualAPK is under the Apache License 2.0. See the [LICENSE](LICENSE) file.
+VirtualAPK is under the Apache License 2.0, See the [LICENSE](LICENSE) file.
