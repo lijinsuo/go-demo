@@ -3,7 +3,7 @@ VirtualAPK is a plugin framework for Android, it can load an apk file dynamicall
 
 through VirtualAPK, Developers can visit Class and Resources in LoadedPlugin, more important, can visit Android components(Activity/Service/Receiver/Provider) just like they are installed.
 
-![VirtualAPK](va.png)
+![VirtualAPK](imgs/va.png)
 # Feature supported
 
 |Feature|Detail
