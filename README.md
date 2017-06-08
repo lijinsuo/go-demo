@@ -78,11 +78,11 @@ virtualApk {
 # Develop guide
 See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki).
 # Known issues
-- unsupport notifications with custom layout in plugin
-- unsupport transition animations with animation resources in plugin
+- not support notifications with custom layout in plugin
+- not support transition animations with animation resources in plugin
 
 # Contributing
 Welcome to contribute to VirtualAPK, you can contribute issues or pull requests, see the [Contributing Guide](CONTRIBUTING.md).
 
 # License
-VirtualAPK is under the BSD license. See the [LICENSE](LICENSE) file.
+VirtualAPK is under the Apache License 2.0. See the [LICENSE](LICENSE) file.

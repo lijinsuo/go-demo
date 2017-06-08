@@ -108,6 +108,9 @@ public class PluginManager {
     private void doInWorkThread() {
     }
 
+    /**
+     * hookSystemServices, but need to compatible with Android O in future.
+     */
     private void hookSystemServices() {
         try {
             Singleton<IActivityManager> defaultSingleton = (Singleton<IActivityManager>) ReflectUtil.getField(ActivityManagerNative.class, null, "gDefault");
