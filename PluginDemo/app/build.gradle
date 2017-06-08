@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.didi.virtualapk.demo"
+        minSdkVersion 15
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:22.2.0'
+
+    // the following aars are also compiled in host project, so they will be filterd when build plugin apk.
+    // but, wo can still visit their Class and Resources.
+    compile 'com.didi.virtualapk:core:1.1.4.8'
+}
+
+apply plugin: 'com.didi.virtualapk.plugin'
+
+virtualApk {
+    packageId = 0x6f // the package id of Resources.
+    targetHost='../../VirtualAPK/app' // the path of host project.
+    applyHostMapping = true //optional, default value: true.
+}
