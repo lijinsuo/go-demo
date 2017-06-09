@@ -1,7 +1,12 @@
-#### 关于pr
-欢迎大家发pr，所有的pr请发到dev分支，否则会被直接关闭。发pr，请描述清楚解决了什么问题，并且要附上在手机上验证通过的日志或者截图。
+### How to send Pull request
+Welcome to send pull request to VirtualAPK, but you should read the following notes before your contribution.
 
-另外，pr中的commit msg，请用英文，否则也将会被直接关闭。
+1. Branch: only branch ```dev``` will accept pull request, so not send your pull request to other branch.
+2. Code style and name format: please refer to the code style of Android and VirtualAPK.
+3. Format of commit message when submit code by git: only English message that spelled Correctly is accepted.
+4. Test: you should test your code before sending pull request, It's recommended that add ```device mode```, ```API version```, ```log```, ```photos``` and etc with your pull request.
 
-#### 关于issue
-欢迎大家提交issue，为了你的issue对大家更有价值，请清晰地描述问题，提交机型、API版本、日志甚至截图都是必要的。
+```Note```: make sure the code of your pull request is under the [Apache License 2.0](https://github.com/didichuxing/VirtualAPK/blob/master/LICENSE).
+
+### How to make issue
+Welcome to make issue for VirtualAPK, be sure to describe problems explicitly in the issue. It's also recommended that add ```device mode```, ```API version```, ```log```, ```photos``` in the issue.

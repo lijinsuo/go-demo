@@ -49,6 +49,16 @@ protected void attachBaseContext(Context base) {
 }
 ```
 
+Lastly, add the following proguard rules to your application module:
+```
+-keep class com.didi.virtualapk.internal.VAInstrumentation { *; }
+-keep class com.didi.virtualapk.internal.PluginContentResolver { *; }
+
+-dontwarn com.didi.virtualapk.**
+-dontwarn android.content.pm.**
+-keep class android.** { *; }
+```
+
 Now, you can load an apk as you wish, for example:
 
 ``` java
@@ -81,7 +91,11 @@ virtualApk {
 }
 ```
 # Develop guide
-See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki).
+
+1. See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki)
+2. See the sample project [PluginDemo](https://github.com/didichuxing/VirtualAPK/tree/master/PluginDemo)
+3. Read the [source code](https://github.com/didichuxing/VirtualAPK/tree/master/CoreLibrary)
+
 # Known issues
 - not support notifications with custom layout in plugin
 - not support transition animations with animation resources in plugin
@@ -90,4 +104,4 @@ See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki).
 Welcome to contribute to VirtualAPK, you can contribute issues or pull requests, see the [Contributing Guide](CONTRIBUTING.md).
 
 # License
-VirtualAPK is under the Apache License 2.0, See the [LICENSE](LICENSE) file.
+VirtualAPK is under the Apache License 2.0, see the [LICENSE](LICENSE) file.
