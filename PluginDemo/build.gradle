@@ -2,20 +2,20 @@
 buildscript {
     repositories {
         maven {
-            url 'http://artifactory.intra.xiaojukeji.com/artifactory/public/'
+            url 'https://dl.bintray.com/singwhatiwanna/maven'
         }
         jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.3'
-        classpath 'com.didi.virtualapk:gradle:1.1.4'
+        classpath 'com.didi.virtualapk:gradle:0.0.1'
     }
 }
 
 allprojects {
     repositories {
         maven {
-            url 'http://artifactory.intra.xiaojukeji.com/artifactory/public/'
+            url 'https://dl.bintray.com/singwhatiwanna/maven'
         }
         jcenter()
     }
