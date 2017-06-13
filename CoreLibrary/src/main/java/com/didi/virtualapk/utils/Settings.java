@@ -23,23 +23,6 @@ import android.content.SharedPreferences;
 /**
  * Created by renyugang on 16/8/23.
  */
-
-/**
- * http://www.flvcd.com/
- *  .--,       .--,
- * ( (  \.---./  ) )
- *  '.__/o   o\__.'
- *     {=  ^  =}
- *      >  -  <
- *     /       \
- *    //       \\
- *   //|   .   |\\
- *   "'\       /'"_.-~^`'-.
- *      \  _  /--'         `
- *    ___)( )(___
- *   (((__) (__)))    高山仰止,景行行止.虽不能至,心向往之。
- */
-
 public class Settings {
 
     private static final String FILE_NAME = "VirtualAPK_Settings";
