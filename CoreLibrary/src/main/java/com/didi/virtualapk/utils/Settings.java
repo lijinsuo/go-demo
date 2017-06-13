@@ -19,7 +19,6 @@ package com.didi.virtualapk.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-
 /**
  * Created by renyugang on 16/8/23.
  */
