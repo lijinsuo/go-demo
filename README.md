@@ -1,7 +1,7 @@
 # VirtualAPK
 
 [![license](http://img.shields.io/badge/license-Apache2.0-brightgreen.svg?style=flat)](https://github.com/didichuxing/VirtualAPK/blob/master/LICENSE)
-[![Release Version](https://img.shields.io/badge/release-1.1.4.5-red.svg)](https://github.com/didichuxing/VirtualAPK/releases) 
+[![Release Version](https://img.shields.io/badge/release-1.0.0-red.svg)](https://github.com/didichuxing/VirtualAPK/releases) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/didichuxing/VirtualAPK/pulls)
 
 VirtualAPK is a powerful but lightweight plugin framework for Android, it can load an apk file dynamically, then the loaded apk file which is called LoadedPlugin by us can be treated as applications installed.
