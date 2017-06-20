@@ -1,7 +1,7 @@
-# VirtualAPK
+![VirtualAPK](imgs/va-logo.png)
 
 [![license](http://img.shields.io/badge/license-Apache2.0-brightgreen.svg?style=flat)](https://github.com/didichuxing/VirtualAPK/blob/master/LICENSE)
-[![Release Version](https://img.shields.io/badge/release-1.0.0-red.svg)](https://github.com/didichuxing/VirtualAPK/releases) 
+[![Release Version](https://img.shields.io/badge/release-0.9.0-red.svg)](https://github.com/didichuxing/VirtualAPK/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/didichuxing/VirtualAPK/pulls)
 
 VirtualAPK is a powerful but lightweight plugin framework for Android, it can load an apk file dynamically, then the loaded apk file which is called LoadedPlugin by us can be treated as applications installed.
@@ -26,7 +26,7 @@ through VirtualAPK, Developers can visit Class and Resources in LoadedPlugin, mo
 Add the following dependency in the build.gradle in root path of host project:
 ``` java
 dependencies {
-    classpath 'com.didi.virtualapk:gradle:0.0.1'
+    classpath 'com.didi.virtualapk:gradle:0.9.0'
 }
 ```
 
@@ -37,7 +37,7 @@ apply plugin: 'com.didi.virtualapk.host'
 
 Add the following dependency in the build.gradle of application module:
 ``` java
-compile 'com.didi.virtualapk:core:1.0.0'
+compile 'com.didi.virtualapk:core:0.9.0'
 ```
 
 Then add initial code in attachBaseContext method of application:
@@ -75,7 +75,7 @@ startActivity(intent);
 Add the following dependency in the build.gradle in root path of plugin project:
 ``` java
 dependencies {
-    classpath 'com.didi.virtualapk:gradle:0.0.1'
+    classpath 'com.didi.virtualapk:gradle:0.9.0'
 }
 ```
 
@@ -92,7 +92,7 @@ virtualApk {
 ```
 # Develop guide
 
-1. See the [Wiki](https://github.com/didichuxing/VirtualAPK/wiki)
+1. See the [wiki](https://github.com/didichuxing/VirtualAPK/wiki)
 2. See the sample project [PluginDemo](https://github.com/didichuxing/VirtualAPK/tree/master/PluginDemo)
 3. Read the [source code](https://github.com/didichuxing/VirtualAPK/tree/master/CoreLibrary)
 
