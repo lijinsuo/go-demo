@@ -1,5 +1,5 @@
 ![VirtualAPK](imgs/va-logo.png)
-
+---
 [![license](http://img.shields.io/badge/license-Apache2.0-brightgreen.svg?style=flat)](https://github.com/didichuxing/VirtualAPK/blob/master/LICENSE)
 [![Release Version](https://img.shields.io/badge/release-0.9.0-red.svg)](https://github.com/didichuxing/VirtualAPK/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/didichuxing/VirtualAPK/pulls)
