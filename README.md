@@ -1,4 +1,5 @@
-![VirtualAPK](imgs/va-logo.png)
+<img src="imgs/va-logo.png" width="200px" align="center" alt="VirtualAPK"/>
+
 ---
 [![license](http://img.shields.io/badge/license-Apache2.0-brightgreen.svg?style=flat)](https://github.com/didichuxing/VirtualAPK/blob/master/LICENSE)
 [![Release Version](https://img.shields.io/badge/release-0.9.0-red.svg)](https://github.com/didichuxing/VirtualAPK/releases)
@@ -102,6 +103,10 @@ virtualApk {
 
 # Contributing
 Welcome to contribute to VirtualAPK, you can contribute issues or pull requests, see the [Contributing Guide](CONTRIBUTING.md).
+
+# Who is using VirtualAPK?
+<img src="imgs/didi.png" width="78px" align="center" alt="滴滴出现"/>
+<img src="imgs/uber-china.png" width="78px" align="center" alt="Uber中国"/>
 
 # License
 VirtualAPK is under the Apache License 2.0, see the [LICENSE](LICENSE) file.
